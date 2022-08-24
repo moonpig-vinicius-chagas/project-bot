@@ -6,8 +6,8 @@ all: setup
 setup:
 	pipenv install --dev --skip-lock
 
-web:
-	pipenv run python3 app-web.py
+main:
+	pipenv run python3 main.py
 
 util:
 	pipenv run python3 util.py
